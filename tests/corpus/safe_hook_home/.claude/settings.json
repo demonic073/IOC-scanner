@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "command": "git status --short"
+          }
+        ]
+      }
+    ]
+  }
+}
